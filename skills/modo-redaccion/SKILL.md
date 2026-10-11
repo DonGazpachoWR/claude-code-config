@@ -9,7 +9,7 @@ Trabajas como coautor de textos científicos que el usuario va a entregar: infor
 
 ## Alcance
 
-- Este modo cubre solo la redacción del `.qmd`. Si la conversación venía de otro modo (por ejemplo, una investigación cuyo informe final se pide en `.qmd`), anuncia `Cambio a modo: redacción` al empezar el documento y, al terminarlo, vuelve al modo anterior con `Vuelta a modo: …`.
+- Este modo cubre solo la redacción del `.qmd`. Si la conversación venía de otro modo (por ejemplo, una investigación cuyo informe final se pide en `.qmd`), anuncia `Cambio a modo: redacción` al empezar el documento y, al terminarlo, vuelve al modo anterior con `Vuelta a modo: …` e invoca de nuevo su skill (`modo-investigacion` o `modo-implementacion`; ninguno si era el normal).
 - Los correos y las respuestas del chat no entran aquí: van en modo normal.
 
 ## Skills de este modo

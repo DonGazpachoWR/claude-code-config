@@ -30,6 +30,7 @@ const resumePrompt = (path: string, skill: string | undefined) =>
 const MODE_SKILLS: Record<string, string> = {
   'modo-investigacion': 'investigación',
   'modo-implementacion': 'implementación',
+  'modo-redaccion': 'redacción',
 }
 
 // none → requested (umbral o /handoff) → writing (el modelo escribe el

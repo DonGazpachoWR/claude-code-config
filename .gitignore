@@ -9,6 +9,7 @@
 !/agents/
 !/skills/
 !/mods/
+!/docs/
 
 # Anthropic skills synced from claude.ai (not ours to publish).
 /skills/synced/

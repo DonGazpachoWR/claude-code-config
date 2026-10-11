@@ -16,7 +16,7 @@
     "anthropic-skills:import-memory": "off"
   },
   "enabledPlugins": {
-    "diagram-design@diagram-design": false
+    "diagram-design@diagram-design": true
   },
   "extraKnownMarketplaces": {
     "diagram-design": {
@@ -32,5 +32,9 @@
     }
   },
   "theme": "auto",
-  "switchModelsOnFlag": false
+  "switchModelsOnFlag": false,
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  }
 }

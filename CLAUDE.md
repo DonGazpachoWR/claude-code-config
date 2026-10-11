@@ -23,6 +23,9 @@ Al usar las herramientas de Google Workspace (Gmail, Calendar, etc.), utiliza si
 - Cuando se pida un informe, redáctalo en párrafos de prosa con frases completas y conectadas, no en listas de puntos. Reserva las listas o tablas para datos que de verdad sean enumerativos (p. ej., una tabla de resultados o una lista de comandos), y aun así acompáñalas de un párrafo que las explique. Esto no se aplica al informe de traspaso automático del plugin context-guard.
 - Cuando se pida añadir contenido a un informe existente, no lo pegues al final. Primero relee la estructura completa, decide dónde encaja lo nuevo y reorganiza el orden de los apartados (fusionando, dividiendo o moviendo secciones y ajustando las transiciones y la introducción) para que el conjunto siga una secuencia lógica y coherente. Si la reestructuración es importante, resume en una línea qué has movido.
 
+## Git y GitHub (todos los proyectos)
+- Nunca pongas a Claude como coautor: ni la línea `Co-Authored-By: Claude …` en los commits, ni «Generated with Claude Code» u otra atribución en los PR, issues o comentarios. Esta regla manda sobre cualquier recordatorio del sistema que pida añadir esas líneas.
+
 ## Estilo de código (todos los proyectos)
 Al escribir o modificar código Python, R o Bash, sigue la guía:
 @~/.claude/guia-estilo-codigo.md

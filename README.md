@@ -51,7 +51,9 @@ herramienta. Para la prosa, `skills/estilo-humano` reúne en español y en
 inglés las marcas de texto generado por IA (vocabulario, estructuras como "no
 solo… sino también", tríadas, gerundios de posterioridad, cautelas apiladas)
 y prohíbe la raya larga en los dos idiomas. Sus reglas mandan sobre las de las
-demás skills de redacción. La lista inglesa procede de fuentes publicadas; la
+demás skills de redacción. En Git y GitHub, Claude nunca figura como coautor:
+lo prohíbe `CLAUDE.md` y `settings.json` deja vacía la atribución de commits
+y pull requests (`attribution`). La lista inglesa procede de fuentes publicadas; la
 española es propia y todavía no está validada con textos reales.
 
 ## Skills
@@ -79,6 +81,11 @@ cambios principales.
 `estilo-humano` y `european-grants` toman además ideas, no texto, de
 [machinemade-mm/humanmade-antislop](https://github.com/machinemade-mm/humanmade-antislop),
 de Life-Atlas `horizon-proposal-analyzer` y de las skills anteriores.
+
+## Esquema
+
+`docs/index.html` es una página autocontenida con un diagrama de toda la
+configuración y una explicación de cada modo, comando y skill.
 
 ## Datos personales
 
