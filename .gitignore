@@ -1,0 +1,26 @@
+# Whitelist: everything at the top level is ignored except what is listed
+# below, so that credentials, history, sessions and caches never get in.
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/guia-estilo-codigo.md
+!/settings.json
+!/agents/
+!/skills/
+!/mods/
+
+# Anthropic skills synced from claude.ai (not ours to publish).
+/skills/synced/
+/skills/.trash/
+
+# Personal data imported from CLAUDE.md, kept out of the public repo.
+personal.md
+.env
+*.env
+
+# Generated files.
+__pycache__/
+*.pyc
+/mods/*/.claude-plugin/types/
+node_modules/

@@ -1,0 +1,8 @@
+{
+  "name": "diagram-toggle",
+  "version": "0.1.0",
+  "description": "/diagram activate|deactivate toggles the diagram-design plugin without calling the model",
+  "author": {
+    "name": "Adrian Berenguer-Agustí (I2SysBio-CSIC)"
+  }
+}

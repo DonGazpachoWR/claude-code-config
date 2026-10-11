@@ -1,0 +1,1 @@
+{ "name": "context-guard", "version": "0.1.0", "description": "Compacta tras 15 min de inactividad y hace traspaso con informe + /clear cuando el contexto crece" }

@@ -1,0 +1,36 @@
+{
+  "env": {
+    "CLAUDE_CODE_PLUGIN_DIRS": "/home/adrian/.claude/mods/context-guard:/home/adrian/.claude/mods/diagram-toggle"
+  },
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "model": "opus",
+  "skillOverrides": {
+    "anthropic-skills:pptx": "off",
+    "anthropic-skills:deep-research": "off",
+    "anthropic-skills:computer-use": "off",
+    "anthropic-skills:built-in-browser": "off",
+    "anthropic-skills:chrome-browser": "off",
+    "anthropic-skills:skill-creator": "off",
+    "anthropic-skills:import-memory": "off"
+  },
+  "enabledPlugins": {
+    "diagram-design@diagram-design": false
+  },
+  "extraKnownMarketplaces": {
+    "diagram-design": {
+      "source": {
+        "source": "github",
+        "repo": "cathrynlavery/diagram-design"
+      }
+    }
+  },
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "high"
+    }
+  },
+  "theme": "auto",
+  "switchModelsOnFlag": false
+}
