@@ -9,6 +9,9 @@ los datos personales no salen de la máquina.
 
 ## Modos de trabajo
 
+<img width="1527" height="732" alt="imagen" src="https://github.com/user-attachments/assets/4cb5fa4a-74b9-4887-91f6-e192c49ddb56" />
+
+
 `CLAUDE.md` hace que Claude elija un modo con el primer mensaje de cada
 conversación y lo anuncie en la primera línea. El modo investigación
 (`skills/modo-investigacion`) sirve para ideas, literatura, bases de datos y
